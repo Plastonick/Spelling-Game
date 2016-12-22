@@ -15,6 +15,7 @@
 		E14F8E611E0B6C62002A7A8B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F8E601E0B6C62002A7A8B /* Player.swift */; };
 		E14F8E631E0B6C80002A7A8B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F8E621E0B6C80002A7A8B /* Game.swift */; };
 		E14F8E651E0B6D4C002A7A8B /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F8E641E0B6D4C002A7A8B /* HumanPlayer.swift */; };
+		E183E41D1E0C2F3600939E42 /* RandomInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183E41C1E0C2F3600939E42 /* RandomInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E14F8E601E0B6C62002A7A8B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E14F8E621E0B6C80002A7A8B /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		E14F8E641E0B6D4C002A7A8B /* HumanPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
+		E183E41C1E0C2F3600939E42 /* RandomInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		E115C65B1E033B14009792B7 /* Spelling Game */ = {
 			isa = PBXGroup;
 			children = (
+				E183E41B1E0C2F2900939E42 /* Extensions */,
 				E115C6691E033B29009792B7 /* main.swift */,
 				E115C66F1E033B68009792B7 /* Letter.swift */,
 				E14F8E621E0B6C80002A7A8B /* Game.swift */,
@@ -71,6 +74,14 @@
 				E115C66C1E033B4C009792B7 /* test.txt */,
 			);
 			path = "Spelling Game";
+			sourceTree = "<group>";
+		};
+		E183E41B1E0C2F2900939E42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E183E41C1E0C2F3600939E42 /* RandomInteger.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				E115C66A1E033B29009792B7 /* main.swift in Sources */,
 				E14F8E631E0B6C80002A7A8B /* Game.swift in Sources */,
 				E115C6701E033B68009792B7 /* Letter.swift in Sources */,
+				E183E41D1E0C2F3600939E42 /* RandomInteger.swift in Sources */,
 				E14F8E651E0B6D4C002A7A8B /* HumanPlayer.swift in Sources */,
 				E14F8E611E0B6C62002A7A8B /* Player.swift in Sources */,
 			);
