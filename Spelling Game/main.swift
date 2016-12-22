@@ -19,8 +19,8 @@ for word in words {
 }
 
 let players: [Player] = [
-	HumanPlayer("Robert"),
-	HumanPlayer("David")
+	HumanPlayer("Player 1"),
+	DavidsComputerPlayer("Computer 1")
 ]
 
 let game = Game(dictionary: dictionary, players: players)
